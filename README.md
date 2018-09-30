@@ -35,6 +35,8 @@ There are only two options:
 
 `timeout:` (integer) The duration the messagebox is shown in milliseconds. Optional, defaults to 3000 (3 sec).
 
+`setClass:` (string) set custom class for message box. (this best works if you have bootstrap css installed)
+
 ## Styling ##
 
 The messagebox can be styled with CSS, see [the css file]( leaflet-messagebox.css) for details.
