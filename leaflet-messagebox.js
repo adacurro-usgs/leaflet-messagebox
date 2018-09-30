@@ -1,11 +1,12 @@
 L.Control.Messagebox = L.Control.extend({
     options: {
         position: 'topright',
-        timeout: 3000
+        timeout: 3000,
+        setClass: 'custom-class' 
     },
 
     onAdd: function (map) {
-        this._container = L.DomUtil.create('div', 'leaflet-control-messagebox');
+        this._container = L.DomUtil.create('div', 'leaflet-control-messagebox '+this.options.setClass);
         //L.DomEvent.disableClickPropagation(this._container);
         return this._container;
     },
