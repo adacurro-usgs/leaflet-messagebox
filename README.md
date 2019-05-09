@@ -1,4 +1,4 @@
-A Leaflet plugin to display a temporary message on a map
+Shameless copy of A Leaflet plugin to display a temporary message on a map
 ([Demo](https://www.grendelman.net/leaflet/))
 
 # Leaflet.Messagebox
